@@ -25,15 +25,18 @@
 ul {
   list-style: none;
 }
-
+*/
 a {
   text-decoration: none;
-  color: white;
 }
-
+/*
 a:hover {
   color: #333;
 } */
+
+.bg-danger {
+  background-color: #f72210 !important;
+}
 
 /*
     ==============================================
@@ -45,5 +48,5 @@ a:hover {
 
 nav .logo {
   width: auto;
-  height: 2rem;
+  height: 3rem;
 }
