@@ -40,3 +40,10 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* Navigation */
+
+nav .logo {
+  width: auto;
+  height: 2rem;
+}
