@@ -35,10 +35,10 @@ header .fa-bars {
 }
 
 nav {
-  position:relative;
+  position: relative;
 }
 
-.search-nav{
+.search-nav {
   position: absolute;
   right: 5px;
   top: 20px;
