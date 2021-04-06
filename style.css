@@ -3,6 +3,9 @@
                 ****** RESET ******
     ==============================================
 */
+* {
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
 
 .bg-red {
   background-color: #f72210 !important;
@@ -12,10 +15,29 @@
   background-color: #ffe400;
 }
 
+.bg-light-gray {
+  background-color: #e7e7e8;
+}
+
+.bg-opacity-gray {
+  background-color: #e7e7e8;
+  opacity: 0.9;
+}
+
 .font-small {
   font-size: 0.8rem;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.red-underline:hover {
+  text-decoration: red underline;
+  text-decoration-thickness: 2p;
+  color: #000;
+}
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -55,6 +77,9 @@ nav {
   font-size: 1.2rem;
   color: #787878;
 }
+
+/* Top story  */
+
 
 /* Footer */
 
