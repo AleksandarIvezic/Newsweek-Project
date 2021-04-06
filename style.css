@@ -5,7 +5,7 @@
 */
 h6 {
   font-size: 1.1rem;
-  margin: 0 
+  margin: 0
 }
 
 .bg-red {
@@ -39,6 +39,7 @@ a {
   text-decoration-thickness: 2p;
   color: #000;
 }
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -81,10 +82,8 @@ nav {
 
 /* Debate  */
 .debate .article-img {
-  width: 65px ;
+  width: 65px;
 }
-
-
 
 .vs {
   height: 30px;
@@ -93,7 +92,7 @@ nav {
   font-weight: bold;
   padding-top: 3px;
   padding-left: 5px;
-  top:42%;
+  top: 42%;
   left: 50%;
 }
 
@@ -120,6 +119,18 @@ footer .footer-top {
   border-bottom: 1px gray solid;
 }
 
+@media screen and (min-width: 720px){
+  .my-turn img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .center .card {
+    width: 350px;
+    margin: auto;
+  }
+
+}
 
 @media screen and (min-width: 992px) {
   .top-nav {
