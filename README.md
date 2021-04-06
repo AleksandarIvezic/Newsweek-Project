@@ -1,76 +1,45 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Project Name
 
-> One paragraph statement about the project.
+# Project3: Newsweek-Project
 
-![screenshot](./app_screenshot.png)
+> Project 3: Using Bootstrap
+The goal of this project is to build a clone of the Newsweek web page using Bootstrap framework .
 
-Additional description about the project and its features.
+![screenshot](./Screenshot-Newsweek-project.png)
+
+Project requirements included instalation of Bootstrap in our project, and preparing project to work with 3 screen sizes: mobile, tablet, and desktop using the Bootstrap.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- CSS Bootstrap framework
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shinobiwarior.github.io/Newsweek-Project/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Aleksandar Ivezic**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@Aivezic](https://twitter.com/Aivezic)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
 
-👤 **Author2**
+👤 **Emmanuel Obonyo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@emmyobonyo](https://github.com/emmyobonyo)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ShinobiWarior/Newsweek-Project/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

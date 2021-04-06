@@ -3,40 +3,76 @@
                 ****** RESET ******
     ==============================================
 */
-/* body {
-  margin: 0;
+
+.bg-red {
+  background-color: #f72210 !important;
 }
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+.bg-yellow {
+  background-color: #ffe400;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.font-small {
+  font-size: 0.8rem;
 }
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #333;
-} */
 
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* Navigation */
+
+.top-nav .logo {
+  width: auto;
+  height: 1.5rem;
+}
+
+header .fa-bars {
+  opacity: 0.5;
+  font-size: 1.5rem;
+}
+
+nav {
+  position: relative;
+}
+
+.search-nav {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+
+.search-nav input {
+  width: 60px;
+  background-color: #f8f9fa;
+  outline: none;
+  border: none;
+}
+
+.search-nav i {
+  font-size: 1.2rem;
+  color: #787878;
+}
+
+/* Footer */
+
+.footer-top img {
+  height: 3rem;
+}
+
+footer .footer-top {
+  border-bottom: 1px gray solid;
+}
+
+@media screen and (min-width: 992px) {
+  .top-nav {
+    padding: 120px;
+  }
+
+  .top-nav .logo {
+    width: auto;
+    height: 4rem;
+  }
+}
