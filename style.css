@@ -5,7 +5,7 @@
 */
 h6 {
   font-size: 1.1rem;
-  margin: 0
+  margin: 0;
 }
 
 .bg-red {
@@ -36,7 +36,7 @@ a {
 
 .red-underline:hover {
   text-decoration: red underline;
-  text-decoration-thickness: 2p;
+  text-decoration-thickness: 2px;
   color: #000;
 }
 
@@ -119,17 +119,16 @@ footer .footer-top {
   border-bottom: 1px gray solid;
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 720px) {
   .my-turn img {
     width: 100%;
     height: auto;
   }
-  
+
   .center .card {
     width: 350px;
     margin: auto;
   }
-
 }
 
 @media screen and (min-width: 992px) {
