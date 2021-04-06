@@ -95,6 +95,19 @@ nav {
   padding-left: 5px;
 }
 
+/* Form  */
+
+form img {
+  width: 30px;
+  height: 30px;
+}
+
+form .form-group {
+  width: 300px;
+  background-color: #f4f5f6;
+  border: 1px solid lightgray;
+}
+
 /* Footer */
 
 .footer-top img {
@@ -104,6 +117,7 @@ nav {
 footer .footer-top {
   border-bottom: 1px gray solid;
 }
+
 
 @media screen and (min-width: 992px) {
   .top-nav {
