@@ -3,8 +3,9 @@
                 ****** RESET ******
     ==============================================
 */
-* {
-  /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+h6 {
+  font-size: 1.1rem;
+  margin: 0 
 }
 
 .bg-red {
@@ -78,8 +79,19 @@ nav {
   color: #787878;
 }
 
-/* Top story  */
+/* Debate  */
+.debate .article-img {
+  width: 65px ;
+}
 
+.vs {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-left: 5px;
+}
 
 /* Footer */
 
