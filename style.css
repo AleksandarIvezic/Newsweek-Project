@@ -119,6 +119,12 @@ form .form-group {
   background-color: lightgray;
 }
 
+/* Subscribe  */
+.covers {
+  width: 250px;
+  height: 245px;
+}
+
 /* Footer */
 
 .footer-top img {
@@ -127,11 +133,6 @@ form .form-group {
 
 footer .footer-top {
   border-bottom: 1px gray solid;
-}
-
-/* Hovers  */
-a:hover {
-  
 }
 
 @media screen and (min-width: 720px) {
