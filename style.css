@@ -38,6 +38,13 @@ a {
   color: #000;
 }
 
+.line {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: lightgray;
+}
+
 .red-underline:hover {
   text-decoration: red underline;
   text-decoration-thickness: 2px;
@@ -182,4 +189,25 @@ footer .footer-top {
     width: auto;
     height: 4rem;
   }
+
+  /* Magazine  */
+  .in-magazine h6,
+  .magazine h5 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Subscribe and Newsletter  */
+  .newsletter  {
+    height: 311px;
+  }
+  .newsletter .card-img-top {
+    height: 100%;
+  }
+  .sub {
+    width: 55%;
+  }
+  .letter {
+    width:40%;
+  }
+
 }
