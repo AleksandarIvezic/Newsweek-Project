@@ -163,14 +163,14 @@ footer .footer-top {
   }
 
   /* Newsletter  */
-.newsletter img {
-  height: 200px;
-  width: 100%;
-}
+  .newsletter img {
+    height: 200px;
+    width: 100%;
+  }
 
   .newsletter .card-img-top,
   .newsletter .card-body {
-    width:50%;
+    width: 50%;
   }
 }
 
@@ -191,17 +191,19 @@ footer .footer-top {
   }
 
   /* Subscribe and Newsletter  */
-  .newsletter  {
+  .newsletter {
     height: 311px;
   }
+
   .newsletter .card-img-top {
     height: 100%;
   }
+
   .sub {
     width: 55%;
   }
-  .letter {
-    width:40%;
-  }
 
+  .letter {
+    width: 40%;
+  }
 }
