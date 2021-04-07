@@ -100,8 +100,8 @@ nav {
   font-weight: bold;
   padding-top: 3px;
   padding-left: 5px;
-  top: 42%;
-  left: 50%;
+  top: 43%;
+  left: 43%;
 }
 
 /* Form  */
@@ -154,6 +154,22 @@ footer .footer-top {
   .center .card {
     width: 350px;
     margin: auto;
+  }
+
+  .in-magazine .block-title {
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 1rem;
+  }
+
+  /* Newsletter  */
+.newsletter img {
+  height: 200px;
+  width: 100%;
+}
+
+  .newsletter .card-img-top,
+  .newsletter .card-body {
+    width:50%;
   }
 }
 
