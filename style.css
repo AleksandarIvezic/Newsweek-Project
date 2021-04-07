@@ -40,6 +40,10 @@ a {
   color: #000;
 }
 
+.hover-dark:hover {
+  color: #000;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -98,7 +102,8 @@ nav {
 
 /* Form  */
 
-form img {
+form img,
+.block-title img {
   width: 30px;
   height: 30px;
 }
@@ -109,6 +114,11 @@ form .form-group {
   border: 1px solid lightgray;
 }
 
+/* Magazine */
+.see-all:hover {
+  background-color: lightgray;
+}
+
 /* Footer */
 
 .footer-top img {
@@ -117,6 +127,11 @@ form .form-group {
 
 footer .footer-top {
   border-bottom: 1px gray solid;
+}
+
+/* Hovers  */
+a:hover {
+  
 }
 
 @media screen and (min-width: 720px) {
