@@ -73,14 +73,8 @@ header .fa-bars {
   font-size: 1.5rem;
 }
 
-nav {
-  position: relative;
-}
-
-.search-nav {
-  position: absolute;
-  right: 5px;
-  top: 20px;
+.bottom-nav ul {
+  overflow-y: hidden !important;
 }
 
 .search-nav input {

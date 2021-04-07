@@ -12,8 +12,8 @@
   <title>Newsweek-project</title>
 </head>
 <body class="container-xl p-0 bg-light-gray" >
-  <header class="container-fluid container-lg p-0 m-0 py-5 mx-lg-auto bg-light">
-    <div class="top-nav bg-red container-fluid d-flex justify-content-between align-items-end p-2 p-lg-4 ">
+  <header class="container-fluid  p-0 m-0 py-5 mx-lg-auto bg-light">
+    <div class="top-nav bg-red container-fluid d-flex justify-content-between align-items-end p-2 p-lg-4 position-relative">
       <time class="text-light d-none d-lg-inline" datetime="2021-01-20">Wed, Jan 20, 2021</time>
         <a href="#"><img class="logo" src="./img/Newsweek_Logo.png" alt="Newsweek logo"></a>
         <div class="wraper d-inline">
@@ -26,75 +26,41 @@
             <i class="fas fa-bars text-light"></i>
           </button>
         </div>
+        <div class="edge position-absolute"></div>
     </div>
-    <nav class="container-fluid d-none d-lg-flex flex-column bg-light align-items-beetween justify-content-start py-2 p-1 py-lg-4">
-      <div class="midle-nav">
-        <ul class=" d-flex  justify-content-between list-unstyled pe-3">
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark  mt-2  " aria-current="page" href="#"><b> U.S.</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2 " aria-current="page" href="#"><b>World</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Business</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Tech & Science</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Culture</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Newsgeek</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Sports</b> </a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Health</b> </a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> The Debate</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Experts</b> </a>
-          </li>
-          <li class="lh-1 text-center me-5" >
-            <a class="text-decoration-none text-dark  me-5" href="#"><b>Vantage</b> </a>
+    
+    <nav class="container-fluid d-none d-lg-flex  flex-column bg-light align-items-beetween justify-content-start py-2 p-1 ">
+      <div class="midle-nav me-5">
+        <ul class="d-flex list-unstyled position-relative  pe-5">
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> U.S.</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"> <b>World</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"> <b>Business</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Tech & Science</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Culture</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Newsgeek</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b>Sports</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b>Health</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> The Debate</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5"><b><b>Vantage</b></b></a></li>
+          <li class="ps-3">
+            <form class="search-nav d-flex pt-1" >
+              <input class="d-inline" type="text" placeholder="Search...">
+              <i class="fas fa-search d-inline"></i>
+            </form>
           </li>
         </ul>
-        <form class="search-nav " >
-          <input class="d-inline" type="text" placeholder="Search...">
-          <i class="fas fa-search d-inline"></i>
-        </form>
       </div>
-      <div class="bottom-nav">
-        <ul class="list-unstyled d-flex  justify-content-between pe-5 me-5">
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2 active" href="#"><b>TRENDING</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>JOE BIDEN</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>DONALD TRUMP</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>INAUGURATION</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>CORONAVIRUS</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>STIMULUS PACKAGE</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>VACCINE</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>CAPITOL RIOTS</b> </a>
-          </li>
+      <div class="bottom-nav ">
+        <ul class="d-flex list-unstyled overflow-scroll">
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>TRENDING</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "> <b>JOE BIDEN</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "> <b>DONALD TRUMP</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> INAUGURATION</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> CORONAVIRUS</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> STIMULUS PACKAGE</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>VACCINE</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>CAPITOL RIOTS</b></a></li>
+          
         </ul>
       </div>
     </nav>
