@@ -29,14 +29,29 @@ h6 {
   font-size: 0.8rem;
 }
 
+.border-gray {
+  border: lightgray 1px solid;
+}
+
 a {
   text-decoration: none;
   color: #000;
 }
 
+.line {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: lightgray;
+}
+
 .red-underline:hover {
   text-decoration: red underline;
   text-decoration-thickness: 2px;
+  color: #000;
+}
+
+.hover-dark:hover {
   color: #000;
 }
 
@@ -58,14 +73,8 @@ header .fa-bars {
   font-size: 1.5rem;
 }
 
-nav {
-  position: relative;
-}
-
-.search-nav {
-  position: absolute;
-  right: 5px;
-  top: 20px;
+.bottom-nav ul {
+  overflow-y: hidden !important;
 }
 
 .search-nav input {
@@ -92,13 +101,14 @@ nav {
   font-weight: bold;
   padding-top: 3px;
   padding-left: 5px;
-  top: 42%;
-  left: 50%;
+  top: 43%;
+  left: 43%;
 }
 
 /* Form  */
 
-form img {
+form img,
+.block-title img {
   width: 30px;
   height: 30px;
 }
@@ -107,6 +117,23 @@ form .form-group {
   width: 300px;
   background-color: #f4f5f6;
   border: 1px solid lightgray;
+}
+
+/* Magazine */
+.see-all:hover {
+  background-color: lightgray;
+}
+
+/* Subscribe  */
+.covers {
+  width: 250px;
+  height: 245px;
+}
+
+/* Newsletter  */
+.newsletter img {
+  height: 170px;
+  width: 100%;
 }
 
 /* Footer */
@@ -129,6 +156,22 @@ footer .footer-top {
     width: 350px;
     margin: auto;
   }
+
+  .in-magazine .block-title {
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 1rem;
+  }
+
+  /* Newsletter  */
+  .newsletter img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .newsletter .card-img-top,
+  .newsletter .card-body {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -139,5 +182,28 @@ footer .footer-top {
   .top-nav .logo {
     width: auto;
     height: 4rem;
+  }
+
+  /* Magazine  */
+  .in-magazine h6,
+  .magazine h5 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Subscribe and Newsletter  */
+  .newsletter {
+    height: 311px;
+  }
+
+  .newsletter .card-img-top {
+    height: 100%;
+  }
+
+  .sub {
+    width: 55%;
+  }
+
+  .letter {
+    width: 40%;
   }
 }

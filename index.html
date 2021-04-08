@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="style.css">
   <title>Newsweek-project</title>
 </head>
-<body class="container-xl p-0 bg-light" >
-  <header class="container-fluid container-lg p-0 m-0 my-5 mx-lg-auto">
-    <div class="top-nav bg-red container-fluid d-flex justify-content-between align-items-end p-2 p-lg-4 ">
+<body class="container-xl p-0 bg-light-gray" >
+  <header class="container-fluid  p-0 m-0 py-5 mx-lg-auto bg-light">
+    <div class="top-nav bg-red container-fluid d-flex justify-content-between align-items-end p-2 p-lg-4 position-relative">
       <time class="text-light d-none d-lg-inline" datetime="2021-01-20">Wed, Jan 20, 2021</time>
         <a href="#"><img class="logo" src="./img/Newsweek_Logo.png" alt="Newsweek logo"></a>
         <div class="wraper d-inline">
@@ -26,80 +26,47 @@
             <i class="fas fa-bars text-light"></i>
           </button>
         </div>
+        <div class="edge position-absolute"></div>
     </div>
-    <nav class="container-fluid d-none d-lg-flex flex-column bg-light align-items-beetween justify-content-start py-2 p-1 py-lg-4">
-      <div class="midle-nav">
-        <ul class=" d-flex  justify-content-between list-unstyled pe-3">
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark  mt-2  " aria-current="page" href="#"><b> U.S.</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2 " aria-current="page" href="#"><b>World</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Business</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Tech & Science</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Culture</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> Newsgeek</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Sports</b> </a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Health</b> </a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b> The Debate</b></a>
-          </li>
-          <li class="lh-1 text-center border-end border-secondary px-2" >
-            <a class="text-decoration-none text-dark   mt-2" href="#"><b>Experts</b> </a>
-          </li>
-          <li class="lh-1 text-center me-5" >
-            <a class="text-decoration-none text-dark  me-5" href="#"><b>Vantage</b> </a>
+    
+    <nav class="container-fluid d-none d-lg-flex  flex-column bg-light align-items-beetween justify-content-start py-2 p-1 ">
+      <div class="midle-nav me-5">
+        <ul class="d-flex list-unstyled position-relative  pe-5">
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> U.S.</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"> <b>World</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"> <b>Business</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Tech & Science</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Culture</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> Newsgeek</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b>Sports</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b>Health</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5 border-end border-secondary"><b> The Debate</b></a></li>
+          <li><a href="#" class="text-decoration-none text-dark px-1 fs-5"><b><b>Vantage</b></b></a></li>
+          <li class="ps-3">
+            <form class="search-nav d-flex pt-1" >
+              <input class="d-inline" type="text" placeholder="Search...">
+              <i class="fas fa-search d-inline"></i>
+            </form>
           </li>
         </ul>
-        <form class="search-nav " >
-          <input class="d-inline" type="text" placeholder="Search...">
-          <i class="fas fa-search d-inline"></i>
-        </form>
       </div>
-      <div class="bottom-nav">
-        <ul class="list-unstyled d-flex  justify-content-between pe-5 me-5">
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2 active" href="#"><b>TRENDING</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>JOE BIDEN</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>DONALD TRUMP</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>INAUGURATION</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>CORONAVIRUS</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>STIMULUS PACKAGE</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>VACCINE</b> </a>
-          </li>
-          <li class="lh-1">
-            <a class="nav-link text-secondary  p-0 m-2" href="#"><b>CAPITOL RIOTS</b> </a>
-          </li>
+      <div class="bottom-nav ">
+        <ul class="d-flex list-unstyled overflow-scroll">
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>TRENDING</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "> <b>JOE BIDEN</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "> <b>DONALD TRUMP</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> INAUGURATION</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> CORONAVIRUS</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b> STIMULUS PACKAGE</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>VACCINE</b></a></li>
+          <li><a href="#" class="text-decoration-none text-secondary px-2  "><b>CAPITOL RIOTS</b></a></li>
+          
         </ul>
       </div>
     </nav>
   </header>
-  <section class="articles bg-light-gray container-fluid px-0 d-md-none">
+  <!-- Mobile size -->
+  <section class="articles bg-light-gray container-fluid px-0 d-md-none mb-3">
     <div class="box-container p-3 bg-light container-fluid mx-0 mb-3 border-bottom border-secondary">
       <div class="block-title">
         <h5 class="text-muted "><b>TOP STORY</b> </h5>
@@ -178,7 +145,7 @@
     <div class="box-container p-3  bg-light container-fluid mx-0 mb-3  border-bottom border-secondary">
       <article >
         <div class="block-title mb-3 ">
-          <h5 class="text-muted fw-bold ">THE DEBATE</h5>
+          <a href="#"><h5 class="text-muted fw-bold ">THE DEBATE</h5></a>
         </div>
         <div class="debate-wrapper position-relative border-bottom border-top border-5 border-secondary py-3 ">
           <div class="debate d-flex justify-content-start border-bottom border-secondary pb-3 ">
@@ -212,7 +179,7 @@
     <div class="box-container p-3 bg-light container-fluid mx-0 mb-3 position-relative border-bottom border-secondary ">
       <article class="mb-5">
         <div class="block-title mb-3 ">
-          <h5 class="text-muted fw-bold ">OPINION</h5>
+          <a href="#"><h5 class="text-muted fw-bold ">OPINION</h5></a>
         </div>
 
         <div class="debate d-flex justify-content-start border-bottom border-secondary pb-3 ">
@@ -497,7 +464,7 @@
 
     <div class="box-container p-3 bg-light container-fluid mx-0 mb-3  border-bottom border-secondary">
       <div class="block-title">
-        <h5 class="text-muted "><b>MY TURN</b> </h5>
+        <a href="#"><h5 class="text-muted "><b>MY TURN</b> </h5></a>
       </div>
       <article class="mb-5">
         <div class="my-turn mb-3">
@@ -514,7 +481,7 @@
         </div>
       </article>
       <div class="block-title">
-        <h5 class="text-muted "><b>CULTURE & TRAVEL</b> </h5>
+        <a href="#"><h5 class="text-muted "><b>CULTURE & TRAVEL</b> </h5></a>
       </div>
       <article class="mb-5">
         <div class="culture mb-3">
@@ -558,7 +525,7 @@
             <h5 class="fw-bold lh-1">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
           </header>
           <div class="bottom-form d-grid gap-2">
-            <input type="email" placeholder="Email address">
+            <input class=" border border-gray text-muted ps-3" type="email" placeholder="Email address">
             <button class="btn bg-red text-light py-1 fw-bold" type="button">FREE SIGN UP &gt;</button>
           </div>
         </div>
@@ -594,13 +561,13 @@
             <p class="font-small ">In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
           </div>
         </div>
-       
-        
-        
       </article>
     </div>
     
+    
   </section>
+
+  <!-- Tablet and Desktop size  -->
   <section class="big-screen d-none d-md-inline ">
     
     <div class="container-flex">
@@ -730,7 +697,7 @@
           </div>
           <div class="box-container p-3 bg-light container-fluid mx-0 mb-3   ">
             <div class="block-title">
-              <h5 class="text-muted "><b>MY TURN</b></h5>
+              <a href="#"><h5 class="text-muted "><b>MY TURN</b></h5></a>
             </div>
               <article class="row">
                 <div class="my-turn mb-3 col-md-4">
@@ -747,7 +714,7 @@
                 </div>
               </article>
             <div class="block-title">
-              <h5 class="text-muted "><b>CULTURE & TRAVEL</b> </h5>
+              <a href="#"><h5 class="text-muted "><b>CULTURE & TRAVEL</b> </h5></a>
             </div>
             <article class="row">
               <div class="culture my-turn mb-3 col-md-4">
@@ -937,7 +904,7 @@
           <div class="box-container p-3  bg-light container-fluid mx-0 mb-3   sticky-lg-top ">
             <article >
               <div class="block-title mb-3 ">
-                <h5 class="text-muted fw-bold ">THE DEBATE</h5>
+                <a href="#"><h5 class="text-muted fw-bold ">THE DEBATE</h5></a>
               </div>
               <div class="debate-wrapper position-relative border-bottom border-top border-5 border-secondary py-3 ">
                 <div class="debate d-flex justify-content-start border-bottom border-secondary pb-3 ">
@@ -969,7 +936,7 @@
             <div class="box-container p-3 bg-light container-fluid mx-0 mb-3 position-relative ">
               <article class="mb-5">
                 <div class="block-title mb-3 ">
-                  <h5 class="text-muted fw-bold ">OPINION</h5>
+                  <a href="#"><h5 class="text-muted fw-bold ">OPINION</h5></a>
                 </div>
         
                 <div class="debate d-flex justify-content-start border-bottom border-secondary pb-3 ">
@@ -1063,7 +1030,7 @@
                   <h5 class="fw-bold lh-1">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
                 </header>
                 <div class="bottom-form d-grid gap-2">
-                  <input type="email" placeholder="Email address">
+                  <input class=" border border-gray text-muted ps-3" type="email" placeholder="Email address">
                   <button class="btn bg-red text-light py-1 fw-bold" type="button">FREE SIGN UP &gt;</button>
                 </div>
               </div>
@@ -1101,18 +1068,675 @@
               </div>
             </article>
           </div>
-          
-        
-         
         </div>
-
-        <!-- <div class="col-md-12 col-lg-4"> -->
-          
       </div>
             
     </div>
   </section>
-  <footer class="container-fluid container-lg mt-5">
+
+  <!-- All screens -->
+  <section >
+    <!-- In the magazine -->
+    <div class="in-magazine box-container p-3 bg-light container-fluid mx-0 mb-3 
+     mb-3  row">
+      <div class="block-title d-flex justify-content-center align-items-center pb-2">
+        <img class="logo me-1" src="img/N-logo.jpg" alt="N-logo">
+        <h5 class="text-dark pt-1"><b>IN THE MAGAZINE</b> </h5>
+      </div>
+      <div class="line d-none d-md-block"></div>
+      <div class="col-md-3" >
+        <div class="magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/cover-january-22-2021-big.jpg" class="w-100" alt="Cover page"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">JANUARY 22 ISSUE</p></a>
+          </div>
+        </div>
+        <div class="see-all d-flex justify-content-center align-items-center p-2">
+          <a class="fw-bold fs-6 hover-dark" href="#">SEE ALL FEATURES &gt;</a>
+        </div>
+      </div>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/pro-trump-mob-seizes-capitol.jpg" class="w-100" alt="Man with a flag"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">COVER</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">NEWS</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6 fs-lg-2 ">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/trmpford.jpg" class="w-100" alt="Man with a flag and statue"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">FEATURES</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">OPINION</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">On His Way Out, Trump Trashes America—and the GOP</h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/trump-protest-capitol-washington.jpg" class="w-100" alt="Protests"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">FEATURES</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">WORLD</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">Nations Targeted by US for Regime Change Mock Mob Attack on Capitol</h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/fe-american-coup-01-1230457776.jpg" class="w-100" alt="Coup"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">FEATURES</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">CULTURE</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">War on Democracy: the Capitol Riot, in Pictures</h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/libya-commander-war-funeral.jpg" class="w-100" alt="Libia War"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">PERISCOPE</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">CULTURE</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">10 Years After the Arab Spring, Uncertainty Dominates the Region</h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/per-london-warrwick-01.jpg" class="w-100" alt="Cook"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">PERISCOPE</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">CULTURE</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">'I'm 11, I Started a Cake Baking Business During The Pandemic' </h6></a>
+          </div>
+        </div>
+      </article>
+      <article class="mb-4 col-md-3" >
+        <div class="magazine">
+          <div class="article-img">
+            <a href="#"><img src="img/cul-rhye-01.jpg" class="w-100" alt="Ryue"></a>
+          </div>
+          <div class="article-tag my-2">
+            <span class="bg-red text-light fw-bold px-2 py-1 ">DOWNTIME</span>
+            <a class="text-danger fw-bold px-2  py-1" href="#">CULTURE</a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h6 class="fw-bold fs-6">Rhye Puts Down Roots</h6></a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- Editor's pick -->
+    <div class="editors box-container p-3 bg-light container-fluid mx-0 row">
+      <div class="block-title d-flex justify-content-center align-items-center pb-2  ">
+        <img class="logo me-1" src="img/N-logo.jpg" alt="N-logo">
+        <h5 class="text-dark pt-1"><b>EDITOR'S PICK</b> </h5>
+      </div>
+      <div class="line mb-4"></div>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/israel-tanks-border-syria-golan.jpg" class="w-100" alt="Tanks"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">WORLD</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year</h5></a>
+            <p class="font-small ">Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/us-president-donald-trump.jpg" class="w-100" alt="Donald Trump"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">U.S.</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Donald Trump's Pardon List Doesn't Include Himself or His Children</h5></a>
+            <p class="font-small ">Trump released a list of pardons on Tuesday, as last-minute presidential pardons have been a long-standing custom for outgoing presidents.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/queue-covid19-antibody-tests-california.jpg" class="w-100" alt="Covid-19 queue"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">U.S.</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">More Stimulus Checks Largely Wanted for Bills, Debts and Essentials</h5></a>
+            <p class="font-small ">The coronavirus crisis continues to cause economic hardship across the nation, with continued calls for further direct payments to assist those struggling.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/california-gov-gavin-newsom.jpg" class="w-100" alt="Calivornia governor"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">U.S.</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Gavin Newsom, Facing Recall, Accelerates Sluggish Vaccine Rollout</h5></a>
+            <p class="font-small ">Slightly more than 1.3 million people in California had received a COVID-19 vaccine by Saturday.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/president-elect-joe-biden-climate-getty.jpg" class="w-100" alt="Joe Biden"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">TECH &AMP; SCIENCE</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Paris Climate Agreement Explained As Joe Biden Plans to Rejoin </h5></a>
+            <p class="font-small ">The incoming Biden administrate plans to the the U.S. up to the according on inauguration day.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/president-donald-trump.jpg" class="w-100" alt="Donald Trump"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">TECH &AMP; SCIENCE</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Trump's Facebook Gets Almost 200,000 Likes Despite Being Blocked after Riot </h5></a>
+            <p class="font-small ">The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+      <div class="mb-1 magazine">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/people-queue-covid-vaccine.jpg" class="w-100" alt="People queue for vaccine"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">U.S.</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">Faith in Governors' COVID-19 Plans Drops to New Low During Vaccine Rollout </h5></a>
+            <p class="font-small ">Polling has shown growing dissatisfaction in how action has been communicated, as cases continue to rise and the number of deaths linked to COVID-19 in the U.S. nears 400,000.</p>
+          </div>
+        </div>
+      </article>
+      <article class=" col-md-6 col-lg-3 " >
+        <div class="magazine mb-2 pb-4 ">
+          <div class="article-img position-relative">
+            <a href="#"><img src="img/joe-biden-covid-19-vaccines.jpg" class="w-100" alt="Joe Biden"></a>
+            <a class="position-absolute bottom-0 start-0 m-0 py-1 px-3 bg-opacity-gray text-danger fw-bold fs-6"  href="#"><p class="m-0">U.S.</p></a>
+          </div>
+          <div class="aricle-text py-1 ">
+            <a class="red-underline" href="#"><h5 class="fw-bold ">What Joe Biden Has Promised To Do on His First Day as President</h5></a>
+            <p class="font-small ">The president-elect plans to reverse the so-called "Muslim ban" and the exit from the Paris Climate Accords.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="box-container p-3 bg-light container-fluid mx-0 mb-3 mb-md-0  border-bottom  border-secondary">
+      <!-- U.S.  -->
+      <div class="us  row">
+        <div class="line"></div>
+        <div class="block-title d-flex justify-content-start align-items-center  pb-2 ">
+          <a href="#"><h5 class="text-danger pt-3 "><b>U.S.</b> </h5></a>
+        </div>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/vanderburgh-john-keown.jpg" class="w-100" alt="John Keown"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/antony-blinken-attends-senate-confirming-hearing.jpg" class="w-100" alt="Antony Blinken"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Taipei Says Biden Backs Taiwan As Blinken Warns Invasion 'Grievous Mistake'</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/tiger-wild-animal-sanctuary-colorado.jpg" alt="Tiger"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to Government</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/kwame-kiplatrick-trial.jpg" alt="Kwarme Kilpatrick"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Trump Cuts Kwame Kilpatrick's Jail Time for Detroit Corruption by 20 Years</h5></a>
+            </div>
+          </article>
+          <article class="row pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/k-9-officer-arlo.jpg" alt="Police Dog"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Video of Police Dog Arlo Going Home After Shooting Viewed 41 Million Times</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      <!-- World  -->
+      <div class="world row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>World</b> </h5>
+        </div>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/theresa-may-donald-trump-london-2019.jpg" class="w-100" alt="Theresa May and Donald Trump"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Biden Offers 'Democracy and Decency' After Trump, Says Former U.K. PM</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/donald-trump-rename-airport-scotland-golf.jpg" class="w-100" alt="Donald Trump plays a golf"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Scottish Petition Posted to Rename Airport Near Trump Golf Club After Biden</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/new-zealand-covid-free-concert-waitangi-crowd.jpg" alt="New Zealand concert"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">New Zealand's 20,000-Person Concert Marks 2 Months Without COVID in Country</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/joe-biden-south-korea-border-visit.jpg" alt="Kwarme Kilpatrick"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">South Korea Sees Biden in Office as 'Turning Point' for North Peace Talks</h5></a>
+            </div>
+          </article>
+          <article class="row  pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/antony-blinken-china-li-yuanchao.jpg" alt="Police Dog"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Antony Blinken, Biden's State Department Pick, Says Trump Got China 'Right'</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      <!-- Business  -->
+      <div class="business row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>Business</b> </h5>
+        </div>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/sheldonadelson.jpg" class="w-100" alt="Sheldon Adelson"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">The Absolutely American Life of Sheldon Adelson</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/loews-hotels-josh-hawley-cancel.jpg" class="w-100" alt="Loews Hotels"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">'Horrified' Loews Hotels Cancel GOP Sen. Josh Hawley Fundraiser</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/us-capitol-riot.jpg" alt="Riot"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud Claimants</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/trump-supporters-clash-capitol.jpg" alt="Trump supporters"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Disney, Other Trusted Brands Funded Misinformation that Fueled Capitol Riot</h5></a>
+            </div>
+          </article>
+          <article class="row pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/walmart-profits-jump-latest-quarter-during.jpg" alt="Wallmart"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Walmart, Donor of Millions to GOP, No Longer Funding Election Objectors</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      <!-- Tech & Science  -->
+      <div class="tech row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>Tech &amp; Science</b> </h5>
+        </div>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/anthony-levandowski.jpg" class="w-100" alt="Antony Levandowski"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Trump Pardons Anthony Levandowski, Engineer Who Stole Google Trade Secrets</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/netflix-free-trial.jpg" class="w-100" alt="Netflix"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Why Netflix No Longer Offers a Free Trial</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/president-elect-joe-biden.jpg" alt="Joe Biden"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Joe Biden's Social Media Following Up by Millions Ahead of Inauguration</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/cicada-brood-10-stock-getty.jpg" alt="Cicada"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</h5></a>
+            </div>
+          </article>
+          <article class="row  pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/parler-app-mobile-phone.jpg" alt="Wallmart"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Parler's Amy Peikoff Quotes MLK In First Post Since Site's Return</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      <!-- Culture  -->
+      <div class="culture row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>Culture</b> </h5>
+        </div>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/cul-ps-jared-padalecki-2.jpg" class="w-100" alt="Jared Padalecki"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/riverdale-season-5-time-jump.jpg" class="w-100" alt="Riverdale"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">'Riverdale' Season 5 Netflix Release Date</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/lil-wayne.jpg" alt="Lil Wayne"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Here Are Donald Trump's Reasons for Pardoning Lil Wayne</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/riverdale-season-5-release-date.jpg" alt="Riverdale"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">When 'Riverdale' Season 5 Airs and How to Watch Online</h5></a>
+            </div>
+          </article>
+          <article class="row  pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/ghislaine-maxwell-wie-symposium-new-york.jpg" alt="Ghislaine Maxwell"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Ghislaine Maxwell Hearing Disrupted by YouTube Stream to QAnon Followers</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div> 
+      <!-- Sports  -->
+      <div class="sports row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>Sports</b> </h5>
+        </div>
+
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/houston-astros-outfielder-george-springer.jpg" class="w-100" alt="George Springer"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Does Houston Have a Problem? Springer and Harden Gone, Watson May Follow</h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/zion-williamson-new-orleans-pelicans.jpg" class="w-100" alt="Zion Williamson"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Karl Malone Calls out Zion Williamson: 'Your A** Shouldn't Get Tired'</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/sarah-thomas-nfl-official.jpg" alt="Lil Wayne"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/kansas-city-chiefs-super-bowl-celebration.jpg" alt="Riverdale"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Kansas City Making Super Bowl Victory Plans With Two Games Still To Play</h5></a>
+            </div>
+          </article>
+          <article class="row  pb-5 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/clemson-qb-trevor-lawrence.jpg" alt="Trevor Lawrence"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">2021 NFL Draft Order Top 28 Picks After Divisional Round</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      <!-- Newsweek Expert Forum  -->
+      <div class="forum row">
+        <div class="line mb-2"></div>
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h5 class="text-danger pt-1"><b>Newsweek Expert Forum</b> </h5>
+        </div>
+
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/newsweek-expert-forum.png" class="w-100" alt="Expert forum"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Newsweek Announces Launch of the Newsweek Expert Forum </h5></a>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4" >
+          <div class="mb-1 magazine">
+            <div class="article-img">
+              <a href="#"><img src="img/newsweek-expert-forum-members-share-industry-insights.jpg" class="w-100" alt="Forum Members"></a>
+            </div>
+            <div class="aricle-text py-1 ">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Top Workplace Trends to Anticipate in 2021</h5></a>
+            </div>
+          </div>
+        </article>
+        <div class="col-md-4">
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/meet-members-newsweek-expert-forum-1.jpg" alt="Lil Wayne"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Meet Six Founding Members of the Newsweek Expert Forum</h5></a>
+            </div>
+          </article>
+          <article class="row border-bottom border-secondary pb-2 mb-2 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/meet-members-newsweek-expert-forum-2.jpg" alt="Riverdale"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Get to Know Six Members of Newsweek Expert Forum</h5></a>
+            </div>
+          </article>
+          <article class="row  pb-3 mb-3 gx-3">
+            <div class="col-4">
+              <a href="#"><img class="w-100" src="img/meet-members-newsweek-expert-forum-3.jpg" alt="Trevor Lawrence"></a>
+            </div>
+            <div class="col-8">
+              <a class="red-underline" href="#"><h5 class="fw-bold fs-6">Meet Six Leaders from Newsweek Expert Forum</h5></a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="d-lg-flex container-lg-fluid bg-light mx-0 mb-3 mb-md-0 border-bottom border-secondary  m-0 p-0">
+       <!-- Subscribe  -->
+      <div class=" sub box-container p-3 bg-light container-fluid   ">
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h6 class="text-danger pt-1"><b>SUBSCRIBE</b> </h6>
+        </div>
+        <article class="bg-light-gray d-flex flex-column flex-md-row  justify-content-center align-items-center p-4 d-lg-none">
+          <div class="covers position-relative mb-3 me-lg-5">
+            <img class="position-absolute top-0 start-0" src="img/january-15-2021-cover.jpg" alt=" January Cover">
+            <img class="position-absolute bottom-0 end-0" src="img/cover-january-22-2021-small.jpg" alt=" January Cover">
+          </div>
+          <div class="article-text text-md-start m-md-5 m-lg-0 text-center col-lg-6">
+            <h5 class="fw-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+            <p class="small-font mb-0">All Access + Weekly Delivery.</p>
+            <p class="small-font">Choose A Membership That's Perfect for You!</p>
+            <button class="btn bg-red text-light fw-bold" type="button">SUBSCRIBE &GT;</button>
+          </div>
+        </article>
+        <article class="d-none d-lg-flex  ">
+          <div class="covers position-relative mb-3 me-lg-5">
+            <img class="position-absolute top-0 start-0" src="img/january-15-2021-cover.jpg" alt=" January Cover">
+            <img class="position-absolute bottom-0 end-0" src="img/cover-january-22-2021-small.jpg" alt=" January Cover">
+          </div>
+          <div class="article-text text-md-start m-md-5 m-lg-0 text-center col-lg-6">
+            <h5 class="fw-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+            <p class="small-font mb-0">All Access + Weekly Delivery.</p>
+            <p class="small-font">Choose A Membership That's Perfect for You!</p>
+            <button class="btn bg-red text-light fw-bold" type="button">SUBSCRIBE &GT;</button>
+          </div>
+        </article>
+      </div>
+      <!-- Newsletter  -->
+      <div class="letter box-container p-3 bg-light container-fluid mx-0 mb-3 ">
+        <div class="block-title d-flex justify-content-start align-items-center pb-2  ">
+          <h6 class="text-danger pt-1"><b>NEWSLETTER</b> </h6>
+        </div>
+        <article class="newsletter card d-md-flex flex-md-row ">
+            <img class="card-img-top" src="img/starting5-homepage.png" alt=" Mobile phone">
+            <div class="card-body d-lg-flex flex-column justify-content-center ">
+              <div class="article-text text-center">
+                <h5 class="fw-bold">THE STARTING 5</h5>
+                <p class="small-font">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              </div>
+              <form class="d-flex flex-lg-column " >
+                <input class=" mx-0 border border-gray w-100 mb-lg-2 p-1 ps-3 text-muted" type="email" id="apply" placeholder="Email adress">
+                <input class="w-100 mx-0 bg-red fw-bold text-light border btn rounded-right w-lg-100 " type="submit" value="FREE SIGN UP &GT;"> 
+              </form> 
+            </div>
+        </article>
+      </div>
+    </div>
+    
+   
+  </section>
+
+  <footer class="container-fluid bg-light pt-4">
     <div class="footer-top d-flex flex-column justify-content-between align-items-start flex-md-row align-items-md-end">
       <div class="wrap-left d-flex flex-column align-items-start flex-md-row align-items-md-end">
         <a class="pb-3 me-3" href="#"><img  src="img/Newsweek_logo_transparent.png" alt=" Newsweek logo"></a>
@@ -1135,7 +1759,7 @@
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> 日本</a></li>
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Pakistan</a></li>
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Polska</a></li>
-            <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Romania</a></li>
+            <li><a href="#" class="text-decoration-none text-dark px-2 "> Romania</a></li>
           </ul>
         </div>
         
@@ -1151,7 +1775,7 @@
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Cookie Policy</a></li>
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Terms of Sale</a></li>
             <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Archive</a></li>
-            <li><a href="#" class="text-decoration-none text-dark px-2 border-end border-secondary"> Announcements</a></li>
+            <li><a href="#" class="text-decoration-none text-dark px-2 "> Announcements</a></li>
           </ul>
       </div>
       <div class="links">

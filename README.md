@@ -2,7 +2,7 @@
 
 # Project3: Newsweek-Project
 
-> Project 3: Using Bootstrap
+> Project 3: Using Bootstrap -
 The goal of this project is to build a clone of the Newsweek web page using Bootstrap framework .
 
 ![screenshot](./Screenshot-Newsweek-project.png)
@@ -19,8 +19,14 @@ Project requirements included instalation of Bootstrap in our project, and prepa
 
 [Live Demo Link](https://shinobiwarior.github.io/Newsweek-Project/)
 
+## Getting Started
 
+No prerequisites
 
+To get  a local copy, copy up and run:
+
+    1. Clone the repo or download the Zip folder
+    2. Run live server or simply open the index.html file with a browser
 
 ## Authors
 
