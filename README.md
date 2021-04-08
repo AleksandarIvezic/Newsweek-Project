@@ -19,7 +19,14 @@ Project requirements included instalation of Bootstrap in our project, and prepa
 
 [Live Demo Link](https://shinobiwarior.github.io/Newsweek-Project/)
 
+## Getting Started
 
+No prerequisites
+
+To get  a local copy, copy up and run:
+
+    1. Clone the repo or download the Zip folder
+    2. Run live server or simply open the index.html file with a browser
 
 
 ## Authors
