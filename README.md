@@ -1,6 +1,6 @@
 
 
-# Project3: Newsweek-Project
+# Newsweek-Project
 
 > Project 3: Using Bootstrap -
 The goal of this project is to build a clone of the Newsweek web page using Bootstrap framework .
