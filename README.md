@@ -3,11 +3,11 @@
 # Newsweek-Project
 
 > Project 3: Using Bootstrap -
-The goal of this project is to build a clone of the Newsweek web page using Bootstrap framework .
+The goal of this project is to build a clone of the Newsweek web page using the Bootstrap framework.
 
 ![screenshot](./Screenshot-Newsweek-project.png)
 
-Project requirements included instalation of Bootstrap in our project, and preparing project to work with 3 screen sizes: mobile, tablet, and desktop using the Bootstrap.
+Project requirements included the installation of Bootstrap in our project, and preparing the project to work with 3 screen sizes: mobile, tablet, and desktop using the Bootstrap.
 
 ## Built With
 
